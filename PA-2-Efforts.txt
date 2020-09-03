@@ -5,7 +5,7 @@ How to run the program?
 
 Windows Defender flags it as a security threat. You will have to tell Windows Defender to allow the program to run. 
 
-This program will runs on any Windows Desktop. 
+This program will run on any Windows Desktop. 
 
 Navigate to the PA-2-Executable Folder. Double click on "1. PA-2-Executable". 
 The Mergesort_Time.csv file will also be generated in this folder.
@@ -30,8 +30,15 @@ CSV_Generator.py - Used for creating CSV files
 ms_functionality - Provides basic functionality for combining the Array and CSV_Generator and generating the Arrays
 
 PA-2-Source - The main app, primarily consists of code for the GUI and handling transitions/button events/etc.
-=
 
 
 main.kv and all the files in the kv folder contain code written in the kv language for customizing the appearance of the GUI
 
+-------------------------------------------------------------------------------
+Group Member Contribution
+-------------------------------------------------------------------------------
+
+Sarah Armstrong - 25%
+Mohammed Ibrahim - 25%
+Brandon Nguyen - 25%
+Alan Pysnack - 25%
