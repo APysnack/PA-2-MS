@@ -1,0 +1,19 @@
+<HomeScreen>:
+    GridLayout:
+        cols: 1
+        Label:
+            text:
+                "Please generate a CSV before viewing individual arrays"
+
+        Button:
+            text:
+                "Generate a CSV File"
+
+            on_release:
+                app.change_screen("success_screen")
+
+        Button:
+            text:
+                "View an Individual Array"
+            on_release:
+                app.change_screen("input_screen")

@@ -1,0 +1,43 @@
+<InputScreen>:
+
+    input: input
+
+    GridLayout:
+        cols:1
+        Label:
+            text:
+            size_hint: 1, 0.3
+
+        Label:
+            size_hint: 1, 0.2
+            text:
+                "Please choose a number between 1 - 9"
+
+        GridLayout:
+            size_hint: 1, 0.1
+            cols: 4
+            Label:
+                size_hint: 0.3, 0.1
+                text:
+
+            TextInput:
+                size_hint: 0.2, 0.1
+                id: input
+                text:
+                    ""
+
+            Button:
+                size_hint: 0.2, 0.1
+                text:
+                    "Submit"
+                on_release:
+                    root.set_num()
+                    app.change_screen("output_screen")
+
+            Label:
+                size_hint: 0.3, 0.1
+                text:
+
+        Label:
+            size_hint: 1, 0.4
+            text:

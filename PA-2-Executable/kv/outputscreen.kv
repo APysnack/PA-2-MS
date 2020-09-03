@@ -1,0 +1,39 @@
+<OutputScreen>:
+
+    display_string: display_string
+    display_string_2: display_string_2
+
+    GridLayout:
+        cols: 1
+
+        GridLayout:
+            cols:2
+            ScrollView:
+                Label:
+                    size_hint: None, None
+                    size: self.texture_size
+                    id: display_string
+                    text: ""
+
+            ScrollView:
+                Label:
+                    size_hint: None, None
+                    size: self.texture_size
+                    id: display_string_2
+                    text: ""
+
+        Button:
+            size_hint: 1, 0.1
+            text:
+                "Back"
+
+            on_release:
+                app.change_screen("input_screen")
+
+        Button:
+            size_hint: 1, 0.1
+            text:
+                "Home Screen"
+
+            on_release:
+                app.change_screen("home_screen")

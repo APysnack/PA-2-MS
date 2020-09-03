@@ -1,0 +1,30 @@
+#:include kv/homescreen.kv
+#:include kv/successscreen.kv
+#:include kv/inputscreen.kv
+#:include kv/outputscreen.kv
+#:include kv/errorscreen.kv
+
+GridLayout:
+    cols: 1
+    ScreenManager:
+        id: screen_manager
+
+        HomeScreen:
+            name: "home_screen"
+            id: home_screen
+
+        SuccessScreen:
+            name: "success_screen"
+            id: "success_screen"
+
+        InputScreen:
+            name: "input_screen"
+            id: "input_screen"
+
+        OutputScreen:
+            name: "output_screen"
+            id: "output_screen"
+
+        ErrorScreen:
+            name: "error_screen"
+            od: "error_screen"

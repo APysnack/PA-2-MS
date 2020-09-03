@@ -1,0 +1,16 @@
+<ErrorScreen>
+    GridLayout:
+        cols: 1
+
+        Label:
+            size_hint: 1, 0.5
+            text: "                                              ERROR MESSAGE: \n \n If you've reached this screen you've either failed to enter an integer between \n 1 - 9 or you did not generate the arrays before viewing. Please try again."
+
+
+
+        Button:
+            text: "Return Home"
+            size_hint: 1, 0.05
+
+            on_release:
+                app.change_screen("home_screen")
